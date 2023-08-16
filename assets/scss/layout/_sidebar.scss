@@ -1,0 +1,17 @@
+.sideBar {
+  min-width: 200px;
+  min-height: 100vh;
+  position: fixed;
+
+  a,
+  span {
+    display: block;
+  }
+
+  &_item {
+    a {
+      display: flex;
+    }
+  }
+
+}
