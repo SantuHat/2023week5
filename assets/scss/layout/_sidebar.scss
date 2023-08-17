@@ -1,7 +1,10 @@
 .sideBar {
-  min-width: 200px;
+  min-width: 296px;
   min-height: 100vh;
   position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 
   a,
   span {
@@ -9,9 +12,20 @@
   }
 
   &_item {
-    a {
-      display: flex;
+    font-weight: bold;
+
+
+    &:hover {
+      border-left: 4px solid #198754;
     }
   }
 
+  &_footer {
+    img {
+      display: block;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+    }
+  }
 }
